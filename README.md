@@ -50,7 +50,3 @@ Deployment: Export the trained model for deployment using TensorFlow Serving or 
 **Contributions**
 
 Feel free to open issues or contribute to this project. All contributions are welcome!
-
-**License**
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
