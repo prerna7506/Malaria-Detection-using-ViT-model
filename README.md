@@ -1,8 +1,11 @@
 **Malaria Detection using Vision Tranformer(ViT)**
+
 **Overview**
+
 The goal of this study is to use a Vision Transformer (ViT) model to categorise photos of cells infected with malaria. Cell pictures in the dataset are divided into two groups: parasitised and uninfected. Through the utilisation of transformer designs, which are usually employed in natural language processing, we are able to effectively apply the ViT to picture classification and attain exceptional outcomes.
 
 **Model Performance**
+
 Test Accuracy: 95.03%
 Test Top-5 Accuracy: 100.0%
 These results demonstrate that the ViT model effectively distinguishes between parasitised and uninfected cells, offering a reliable tool for malaria diagnosis.
@@ -38,12 +41,15 @@ This project uses a Vision Transformer (ViT) with the following architecture:
 - Kaggle API (for downloading the dataset)
 
 **Future Work**
+
 Fine-tuning: Experiment with different hyperparameters and layer configurations.
 Data Augmentation: Increase the robustness of the model by applying more advanced augmentation techniques.
 Deployment: Export the trained model for deployment using TensorFlow Serving or TFLite.
 
 **Contributions**
+
 Feel free to open issues or contribute to this project. All contributions are welcome!
 
 **License**
+
 This project is licensed under the MIT License. See the LICENSE file for more details.
