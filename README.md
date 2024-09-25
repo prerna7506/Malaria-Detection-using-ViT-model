@@ -20,37 +20,22 @@ Parasitised: Images of malaria-infected cells.
 Uninfected: Images of healthy cells.
 You can download the dataset from Kaggle using the following command:
 " kaggle datasets download -d miracle9to9/files1 "
-Dataset Structure
-Once downloaded and extracted, the dataset should be organized into the following directory structure:
-Malaria Cells/
-    ├── single_prediction/
-    │   ├── Parasitised.png
-    │   └── Uninfected.png
-    ├── training_set/
-    │   ├── Parasitised/
-    │   └── Uninfected/
-    └── testing_set/
-        ├── Parasitised/
-        └── Uninfected/
-single_prediction/: Contains example images for testing predictions.
-training_set/: Contains the training data split into Parasitised and Uninfected categories.
-testing_set/: Contains the test data split into Parasitised and Uninfected categories.
 
 **Model Architecture**
 This project uses a Vision Transformer (ViT) with the following architecture:
 
-Input Layer: 128x128 images, resized from the original dataset.
-Patches: The input images are split into patches of size 16x16.
-Transformer Layers: 8 transformer layers with multi-head attention.
-MLP Head: Multi-layer perceptron (MLP) layers for classification.
-Output Layer: Binary classification (Parasitised or Uninfected).
+- Input Layer: 128x128 images, resized from the original dataset.
+- Patches: The input images are split into patches of size 16x16.
+- Transformer Layers: 8 transformer layers with multi-head attention.
+- MLP Head: Multi-layer perceptron (MLP) layers for classification.
+- Output Layer: Binary classification (Parasitised or Uninfected).
 
 **Setup Instructions**
-Prerequisites
-Python 3.7+
-TensorFlow 2.x
-Keras
-Kaggle API (for downloading the dataset)
+- Prerequisites
+- Python 3.7+
+- TensorFlow 2.x
+- Keras
+- Kaggle API (for downloading the dataset)
 
 **Future Work**
 Fine-tuning: Experiment with different hyperparameters and layer configurations.
