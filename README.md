@@ -25,6 +25,7 @@ You can download the dataset from Kaggle using the following command:
 " kaggle datasets download -d miracle9to9/files1 "
 
 **Model Architecture**
+
 This project uses a Vision Transformer (ViT) with the following architecture:
 
 - Input Layer: 128x128 images, resized from the original dataset.
